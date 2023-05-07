@@ -1,11 +1,12 @@
 <template>
   <div>
-    <h1>Laravel 10 + vue3</h1>
-    <h2>{{ title }}</h2>
+    <Menu />
+    <h1>{{ title }}</h1>
   </div>
 </template>
 
 <script setup>
+import Menu from './components/menu.vue'
 const title = 'Instalación funcional de laravel 10 + vue3'
 </script>
 
