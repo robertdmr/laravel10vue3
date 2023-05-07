@@ -2,4 +2,6 @@ import './bootstrap';
 
 import { createApp } from 'vue';
 
-createApp()
+import App from "../src/App.vue";
+
+createApp(App).mount("#app");
